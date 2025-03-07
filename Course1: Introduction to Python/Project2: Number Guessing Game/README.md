@@ -1,34 +1,28 @@
-Hey there, Python enthusiast!
-Get ready to dive deep into loops and unleash their full power! In this assignment, you’ll practice using both for and while loops to solve practical problems. Let’s get started!
+Let’s Make Loops Fun! 🎲
+For this project, you’ll create a simple yet addictive number-guessing game. Here’s how it works:
 
-Task 1 - Counting Down with Loops
-Write a Python program to create a countdown timer.
+Step 1: Generate a Random Number
+Use Python’s random module to generate a random number between 1 and 100.
+import random
+number_to_guess = random.randint(1, 100)
 
-    Ask the user for a starting number.
-    Use a while loop to print numbers from that number down to 1.
-    When the countdown ends, print a celebratory message like "Blast off!"
+Step 2: Prompt the User for Guesses
+Use a while loop to let the user keep guessing until they get the correct answer. After each guess:
 
-For example:
-Enter the starting number: 5
-5 4 3 2 1 Blast off! 🚀
+    If the guess is too high, print: "Too high! Try again."
+    If the guess is too low, print: "Too low! Try again."
+    If the guess is correct, print: "Congratulations! You guessed it!"
 
-Task 2 - Multiplication Table with for Loops
-Write a program that generates the multiplication table for any number provided by the user.
+Step 3: Count the Attempts
+Keep track of how many guesses the user has made and display the total number of attempts when they win.
 
-    Ask the user to input a number.
-    Use a for loop to print the multiplication table for that number (from 1 to 10).
+Example Run:
+Guess the number (between 1 and 100): 50 Too high! Try again.
+Guess the number (between 1 and 100): 25 Too low! Try again.
+Guess the number (between 1 and 100): 37 Congratulations! You guessed it in 3 attempts!
 
-Example Output:
-Enter a number: 4
-4 x 1 = 4 4 x 2 = 8 ... 4 x 10 = 40
+Bonus Task:
 
-Task 3 - Find the Factorial
-Write a Python program to calculate the factorial of a number entered by the user.
+    Limit the number of attempts to 10. If the user fails to guess in 10 attempts, end the game with a message like "Game over! Better luck next time!"
 
-    Ask the user for a number.
-    Use a for loop to calculate the factorial.
-    Print the result in a friendly format.
-
-For example:
-Enter a number: 5
-The factorial of 5 is 120.
+Make your program friendly, interactive, and fun to play! 😊
