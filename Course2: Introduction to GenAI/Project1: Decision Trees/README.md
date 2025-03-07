@@ -1,5 +1,3 @@
-Weather Prediction Project with Decision Trees
-
 This project is designed to help you apply decision trees for weather prediction in a simple and structured way. You will build, debug, and evaluate a decision tree model to classify or predict weather conditions.
 Objective
 
