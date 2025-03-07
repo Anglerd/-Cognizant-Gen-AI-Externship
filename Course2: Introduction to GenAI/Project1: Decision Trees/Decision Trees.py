@@ -1,3 +1,5 @@
+# PART 1
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -27,6 +29,9 @@ model = DecisionTreeClassifier(random_state=42)
 # Train the model
 model.fit(X_train, y_train)
 
+# PART 2
+print("----------Part 2----------")
+
 from sklearn.metrics import accuracy_score
 
 # Predict on training and testing sets
@@ -53,6 +58,9 @@ test_accuracy = accuracy_score(y_test, y_test_pred)
 
 print(f"Training Accuracy (Adjusted): {train_accuracy:.2f}")
 print(f"Testing Accuracy (Adjusted): {test_accuracy:.2f}")
+
+# PART 3
+print("----------Part 3----------")
 
 # Predict on the test set
 y_test_pred = model.predict(X_test)
