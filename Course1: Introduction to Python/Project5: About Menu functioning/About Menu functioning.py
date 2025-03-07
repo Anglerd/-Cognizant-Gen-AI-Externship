@@ -1,3 +1,56 @@
+# Step 1: Menu of Recursive Functions
+def display_menu():
+    print("Welcome to the Recursive Artistry Program!")
+    print("Choose an option:")
+    print("1. Calculate Factorial")
+    print("2. Find Fibonacci")
+    print("3. Draw a Recursive Fractal (Bonus)")
+    print("4. Exit")
+
+# Step 2: Factorial Function
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Step 3: Fibonacci Function
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+# Step 4: Recursive Fractal Pattern (Bonus)
+import turtle
+
+def draw_tree(branch_length, t):
+    if branch_length > 5:
+        t.forward(branch_length)
+        t.right(20)
+        draw_tree(branch_length - 15, t)
+        t.left(40)
+        draw_tree(branch_length - 15, t)
+        t.right(20)
+        t.backward(branch_length)
+
+def fractal_tree():
+    window = turtle.Screen()
+    window.bgcolor("white")
+
+    t = turtle.Turtle()
+    t.speed(0)
+    t.left(90)
+    t.up()
+    t.backward(100)
+    t.down()
+    t.color("green")
+
+    draw_tree(75, t)
+    window.mainloop()
+
 # Step 5: User-Friendly Program
 def main():
     while True:
