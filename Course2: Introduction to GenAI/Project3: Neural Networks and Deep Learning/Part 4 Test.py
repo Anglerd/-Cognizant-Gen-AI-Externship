@@ -9,7 +9,7 @@ try:
     from sklearn.model_selection import train_test_split
     from tensorflow.keras.applications import VGG16
     from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
-except importError:
+except ImportError:
     print("Prerequisites not installed, please install all necessary files using the following command")
     print("pip install tensorflow scikit-learn matplotlib")
     sys.exit(1)  # Exit the program with an error code
