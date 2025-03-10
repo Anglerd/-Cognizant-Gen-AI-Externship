@@ -1,6 +1,6 @@
 try:
     from openai import OpenAI
-except importError:
+except ImportError:
     print("Prerequisites not installed, please run the following code to install the necessary files")
     print("pip install openai")
 import os
