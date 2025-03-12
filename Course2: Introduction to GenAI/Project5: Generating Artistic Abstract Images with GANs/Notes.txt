@@ -1,0 +1,3 @@
+First successful iteration created a simple network which could only very slightly imitate the style of the chosen artist (Ad Reinhardt in the delauny dataset)
+This is most likely due to either too short of a training time (100 epochs) or the GAN diverging from the expected outcome
+It is much more likely that the small sample size is what caused the poor output as there was never a point where the generator improved against the discriminator
