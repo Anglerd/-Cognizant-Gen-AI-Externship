@@ -1,0 +1,61 @@
+Text Generation Examples:
+
+Temperature 0.5:
+ROMEO: GGLLGGPALGLLAAGMLLLLAPAALLGLGMAGLAGGALAGDKA:
+A place is so straight to the presence to his the common of my ley
+To the wars that have been the country.
+
+BIANCA:
+What is the words have shall come of my books
+What a strength and may comes of all the flesh
+of him to the word.
+
+LUCIO:
+The shame and pardon with the word.
+
+GREMIO:
+Ay, the good since he have shall the dead is can like a man promise,
+You shall be writ what you will be this father,
+Thou hast the cold to mercy she shall be her word
+As the
+
+Temperature 1.0:
+ROMEO: TWGGPMPPLAMPPHILLALGLPLLALGALAGLPAGGPALSQSTlim:
+Thou wast, at her lord, pates
+Of widow! how nor wife: and we a heaven of more knew
+Thou that have burnish nights but here-fellows his man!
+Forge to you. What's my victor's flie;
+And frem my fellow's I am leaker agay?
+
+PETRUCHIO:
+Nay him boyress to, and here's gownly, I here at time?
+Did look on your good purchary.
+
+QUEEN MARGARET:
+And that any leave sees and here's gone and late thine.
+O, the France, the pleasure need on like under again.
+
+JULIET:
+
+
+Temperature 1.5:
+ROMEO: AARLABGAABBBLTLELGSITLRMHMHARPESMPPLYPHADER
+BOWARD WINGHwA:
+Sir!-sprivitious darky love, !agied, now toy's,
+As so. Katels a stleen.' if yot slecked, defeldent,
+Aniuny, SpY'hall'ered him: he revins.
+
+QUEEN RAGTRV:
+Luckma poor Jufu,
+and nor leitry madast; ere-hielfud's,
+Telk a foot siblorr seers the;
+Bat is EDluppuritio-makee?
+
+QUEEN MARGARTE:
+Lost men his collan fluziram?
+Whom may, comes you! Becword: helk's sor.
+
+Lasser:
+Yet? I wulk, this kece weavkdle
+That you mucinest here. if this?
+My jaya,s
